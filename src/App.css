@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Prompt:300,500,700&display=swap&subset=thai');
+
 .App {
   text-align: center;
 }
@@ -6,6 +8,10 @@
   height: 40vmin;
   pointer-events: none;
 }
+
+body {
+    font-family: 'Prompt', sans-serif !important;
+  }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
